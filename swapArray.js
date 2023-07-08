@@ -1,6 +1,6 @@
 // input -> [1,2,3,4,5]
 //output -> [2,1,4,3,5]
-let arr = [1, 2, 3, 4, 5];
+let arr = [1, 2, 3, 4, 5, 6];
 for (let i = 0; i <= arr.length; i += 2) {
   if (i + 1 < arr.length) {
     const temp = arr[i];
